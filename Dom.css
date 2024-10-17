@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Accordion styling */
+
+body {
+    height :100vh;
+    background: url(Timer.jpg) no-repeat center center/cover;
+    display:flex ;
+    justify-content:center ;
+    align-items :center ;
+}
+.container{
+    width: 60% ;
+    height :250px ;
+    background-color: rgb(189, 189, 168);
+    border-radius :30px ;
+    box-shadow :0 0 3px ;
+}
+#timer{
+    width: 100%;
+    font-size: 72px ;
+    text-align: center;
+    margin : 0px auto ;
+    padding :35px;
+}
+.buttons{
+    text-align: center;
+    
+}
+button{
+    margin :0 10px;
+    border : none ;
+}
+button i {
+    font-size : 2rem;
+    padding : 10px;
+    color :white;
+    width : 50px ;
+}
+#play{
+ background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
